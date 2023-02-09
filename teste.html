@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tente você mesmo!</title>
+    <style type="text/css">
+        div {
+            height: 200px;
+            line-height: 200px;
+            color: white;
+            text-align: center;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div onclick="changeColor(this)" style="background-color: blue;">
+    Tap me to change my color!</div>
+
+    <script>
+        function changeColor(element) {
+            var currentColor = element.style.backgroundColor;
+            if(currentColor == "blue") {
+                element.style.backgroundColor = "green";
+            } else {
+                element.style.backgroundColor = "blue";
+            }
+
+            var currentColor = element.style.backgroundColor;
+            if(currentColor == "blue") {
+                element.style.backgroundColor = "yellow";
+            } 
+
+            
+        }
+
+            
+
+            
+            
+       
+    </script>
+
+</body>
+
+</html>

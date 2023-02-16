@@ -22,6 +22,12 @@ section {
 
 footer {
     color: white;
+    text-align: center;   
+    
+    
+}
+
+div {
     text-align: center;
-    font-style: italic;
+    padding: 5px;
 }

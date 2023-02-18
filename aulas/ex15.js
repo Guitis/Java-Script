@@ -11,7 +11,7 @@ while (e <= 8) {
 }
 
 var f = 1
-while (f <= 5) {
+while (f <= 10) {
     console.log (`Passo ${f}`)
     f++
 }

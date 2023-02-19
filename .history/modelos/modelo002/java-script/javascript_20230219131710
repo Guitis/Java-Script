@@ -1,0 +1,11 @@
+function contar() { //contar() no html [e o button]
+    let ini = window.document.getElementById('txti') //txti "inicio"
+    let fim = window.document.getElementById('txtf') //txtf "fim"
+    let passo = window.document.getElementById('txtp') // txtp "passo"
+
+    if (ini.value.lenght == 0 || fim == 0 || passo == 0) { 
+        window.alert('[ERRO] Faltam dados!') //colocar um alerta de erro
+    } else {
+        alert ('TUDO OK!') //
+    }
+}

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-color: rgb(29, 148, 228);
+    
+}
+
+header, h1 {
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+
+section#sect1 {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px 10px;
+}
+
+div#dados {
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    font: normal 10pt Arial;
+    text-align: center;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    margin: auto;
+    margin-top: 10px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 10px 10px;
+}

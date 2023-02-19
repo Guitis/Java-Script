@@ -1,0 +1,5 @@
+function contar() {
+    let ini = coument.get
+    let fim =
+    let passo =
+}

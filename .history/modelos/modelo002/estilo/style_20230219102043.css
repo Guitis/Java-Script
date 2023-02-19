@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(29, 148, 228);
+   
+}
+
+header, h1 {
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+section#sect1 {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px 10px 10px ;
+}
+
+div#dados {
+    margin: auto;
+    color: white;
+    text-align: center;
+    
+}

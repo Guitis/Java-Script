@@ -1,0 +1,5 @@
+function contar() {
+    let ini = window.document.get
+    let fim =
+    let passo =
+}

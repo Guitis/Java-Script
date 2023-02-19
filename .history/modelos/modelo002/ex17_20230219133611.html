@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="tittle" onmousemove="move()">Let's Count!</h1>
+        <h2>Preencha os dados abaixo, para prosseguir com a contagem!</h2>
+    </header>
+    
+    <section id="sect1">
+        <div id="dados"><br>
+            <p>Inicio: <input type="number" name="inicio" id="txti"></p><br>
+            <p>Fim: <input type="number" name="fim" id="txtf"></p><br>
+            <p>Passo: <input type="number" name="passo" id="txtp"></p><br>
+            <input id="button" type="button" value="Contagem" onclick="contar()">
+        </div>
+        
+        <div id="resultado">
+            Preparando a contagem...
+        </div>
+    
+    </section>
+
+    <footer>
+        <p>Criado por <a id="link" href="https://github.com/Guitis" target="b
+            "><img src="icons8-github-30.png" alt="githubicon">Guitis</a> no &copy;CursoemVídeo</p>    
+    </footer>
+
+    <script src="java-script/javascript.js"></script>
+    
+</body>
+</html>

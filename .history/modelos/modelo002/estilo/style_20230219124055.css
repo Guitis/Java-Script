@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-color: rgb(29, 148, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+
+header, h1 {
+    margin: 40px;
+    color: black;
+    text-align: center;
+}
+
+section#sect1 {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px 2px 2px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+}
+
+div#dados {
+    margin: auto;
+    color: rgba(0, 0, 0, 0.699);
+    text-align: center;
+}
+
+input#txti, input#txtf, input#txtp {
+    background-color: rgba(72, 216, 241, 0.322);
+    border-radius: 0px 8px 8px 0px;
+    width: 150px;
+    height: 20px;
+}
+
+
+
+div#resultado {
+    text-align: center;
+    margin: 10px;
+    
+}
+
+input#button {
+    text-decoration: solid;
+    font: normal 15pt black;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.075);
+}
+
+input#button:hover {
+    border: 3px solid rgba(21, 162, 228, 0.247);
+    background-image: linear-gradient(to right, red, rgba(32, 31, 31, 0.301), rgb(175, 207, 175));
+}
+
+footer {
+    font: normal 16pt Arial;
+    text-align: center;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    margin: auto;
+    margin-top: 10px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 10px 2px 2px 5px;
+}
+
+a#link {
+    text-decoration: underline;
+    color: white;
+}
+
+a#link:hover {
+    text-decoration: none;
+    
+}

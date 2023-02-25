@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: skyblue;
+}
+
+header > h1 {
+    height
+    margin: auto;
+    width: 500px;
+    background-color: white;
+}
